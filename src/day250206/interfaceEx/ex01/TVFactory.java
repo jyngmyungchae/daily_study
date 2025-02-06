@@ -14,13 +14,14 @@ public class TVFactory extends Factory implements IWorkingTogether{
             return 5 * getWorkingTime();
         } else if(skill=='C'){
             return 3 * getWorkingTime();
-        } else
+        } else {
             return getWorkingTime();
+        }
 
     }
 
     @Override
-    public void workTogether(String name) {
-
+    public int workTogether(IWorkingTogether partner) {
+        return makeProducts('C');
     }
 }

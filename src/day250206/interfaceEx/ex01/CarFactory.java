@@ -16,12 +16,13 @@ public class CarFactory extends Factory implements IWorkingTogether{
             return 2 * getWorkingTime();
         } else if(skill=='C'){
             return getWorkingTime();
-        } else
+        } else {
             return 0;
+        }
     }
 
     @Override
-    public void workTogether(String name) {
-
+    public int workTogether(IWorkingTogether partner) {
+        return makeProducts('B');
     }
 }

@@ -1,9 +1,10 @@
 package day250206.interfaceEx.ex01;
 
 public abstract class Factory {
-    private int openHour;        // 공장 가동시간
-    private int closeHour;       // 공장 종료시간
-    private String name;         // 공장 이름
+    int openHour;        // 공장 가동시간
+    int closeHour;       // 공장 종료시간
+    String name;         // 공장 이름
+
 
     Factory(String name, int openHour, int closeHour){
         this.name =name;
@@ -14,8 +15,9 @@ public abstract class Factory {
     public String getFactoryName() {
         return name;
     }
+
     public int getWorkingTime(){
-        return this.closeHour - this.openHour;
+        return closeHour - openHour;
     }
 
     abstract int makeProducts(char skill);
