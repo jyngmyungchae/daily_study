@@ -11,7 +11,6 @@ public class AnimalTest {
         for(int i=1; i<=3; i++){
             dog.run(i);
             chicken.run(i);
-
             if (cheatableChicken instanceof Cheatable) {
                 cheatableChicken.fly();
             }
