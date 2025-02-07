@@ -1,4 +1,4 @@
-package day250207.pattern.javabean;
+package day250207.pattern.basic.javabean;
 // Setter 메소드를 사용한 자바빈(Java Bean 패턴) 으로 리팩토링
 public class Hamburger {
     //필수 멤버

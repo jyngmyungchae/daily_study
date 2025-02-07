@@ -1,4 +1,4 @@
-package day250207.pattern.builder;
+package day250207.pattern.basic.builder;
 
 public class Lotteria {
     public static void main(String[] args) {

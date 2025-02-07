@@ -1,4 +1,4 @@
-package day250207.pattern.basic;
+package day250207.pattern.basic.basic;
 
 public class hamburger {
     //필수멤버

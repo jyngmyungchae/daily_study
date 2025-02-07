@@ -1,4 +1,4 @@
-package day250207.pattern.builder;
+package day250207.pattern.basic.builder;
 //빌더패턴은 복잡한 객체를 단계적으로 생성 할 수 있도록 도와주는 디자인 패턴이다.
 //옵션이난 매개변수를 가진 객체를 만들 때 유용함
 
