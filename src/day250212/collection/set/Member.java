@@ -1,6 +1,4 @@
-package day250212.collection.set.set;
-
-import java.util.Objects;
+package day250212.collection.set;
 
 public class Member {
     public String name;

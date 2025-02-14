@@ -1,4 +1,4 @@
-package day250212.collection.set.set;
+package day250212.collection.set;
 
 import java.util.HashSet;
 import java.util.Iterator;

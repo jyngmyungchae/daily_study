@@ -1,4 +1,4 @@
-package day250212.collection.set.listEx.sorting.comparable;
+package day250212.collection.listEx.sorting.comparable;
 
 import java.util.*;
 

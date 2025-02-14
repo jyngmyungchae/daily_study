@@ -1,4 +1,4 @@
-package day250212.collection.set.map;
+package day250212.collection.map;
 
 import java.util.HashMap;
 import java.util.Iterator;

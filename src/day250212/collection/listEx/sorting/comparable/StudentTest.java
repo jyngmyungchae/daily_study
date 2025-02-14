@@ -1,4 +1,4 @@
-package day250212.collection.set.listEx.sorting.comparable;
+package day250212.collection.listEx.sorting.comparable;
 
 public class StudentTest {
     public static void main(String[] args) {

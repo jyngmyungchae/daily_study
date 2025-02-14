@@ -1,4 +1,4 @@
-package day250212.collection.set.listEx.sorting.comparator;
+package day250212.collection.listEx.sorting.comparator;
 
 import lombok.Getter;
 import lombok.ToString;

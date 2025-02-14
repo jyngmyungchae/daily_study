@@ -6,4 +6,10 @@ Java8에서 도입된 표현식
 단일메서드 인터페이스(함수형 인터페이스)의 인스턴스를 보다 명확하고 간결하게 표현할 수 있는 메서드를 제공,
 컬렉션 조작을 편리하게 하고, 전반적인 코드의 가독성과 유연성을 확장시키는 장점.
 
-1. 람다 표현식의 필요성
+
+
+1. Predicate<T> : 타입 T의 매개변수를 받고 boolean 값 반환
+Predicate<String> isEmpty = str -> str.isEmpty();
+
+2. Function<T,R> : 타입 T의 매개변수 받고, 타입 R의 값을 반환
+Function<String, Integer> length = str -> str.length();

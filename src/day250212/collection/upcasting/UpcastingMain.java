@@ -1,4 +1,4 @@
-package day250212.collection.set.upcasting;
+package day250212.collection.upcasting;
 
 import java.util.ArrayList;
 import java.util.Collection;
